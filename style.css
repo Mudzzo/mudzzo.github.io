@@ -1,0 +1,43 @@
+body, html{
+	height: 100%;
+	width: 100%;
+	font-family: bebas neue;
+	background-image: url(laptop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	-webkit-background-size: cover;
+}
+.btn-xl{
+	padding: 1em 2em;
+}
+.btn{
+font-weight: 400;
+border-radius: 300px;	
+}
+.btn-primary{
+	background-color: #91C8E4;
+	border-color: #91C8E4;
+	transition: 0.7s;
+}
+.btn-primary:hover{
+	transform: scale(1.1);
+}
+h1{
+   color: #F6F4EB;
+   margin-bottom: 45px;
+}
+hr{
+	color: #F6F4EB;
+	width: 50px;
+	margin: 20px auto;
+}
+.container{
+	justify-content: center;
+}
+.header1{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+}
